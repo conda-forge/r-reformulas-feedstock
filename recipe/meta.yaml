@@ -1,4 +1,4 @@
-{% set version = "0.4.3.1" %}
+{% set version = "0.4.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/reformulas_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/reformulas/reformulas_{{ version }}.tar.gz
-  sha256: 4ba05936d0b2e4a0f1bb1715ea14164d9e3b787ad47e3434a03bc838cf512a7a
+  sha256: 6a76d85eb4e19325aef87510180175f8cd7b5904a7075c89aff073765529e2f7
 
 build:
   number: 0
